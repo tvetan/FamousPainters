@@ -1,0 +1,16 @@
+{
+  "name": "Final-Project",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-uglify": "^1.2.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-rename": "^1.2.2"
+  }
+}

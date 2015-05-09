@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+   
+    <link href="styles/app.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="logoImg" src="images/brush.png" />
+            <h1>Famous Painters</h1>
+            <p>Select a painter to see their style and examples</p>
+        </header>
+        <div>
+            <ol id="painters" class="painters">
+            </ol>
+
+            <div id="painter-information">
+                <p id="name"></p>
+                <p id="style"></p>
+                <p id="examples"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="scripts/libs/jquery-2.1.3.min.js"></script>
+
+    <script src="scripts/painter.js"></script>
+    <script src="scripts/painters.js"></script>
+    <script src="scripts/renderer.js"></script>
+    <script src="scripts/paintersLoader.js"></script>
+    <script src="scripts/app.js"></script>
+
+    <!--<script src="dist/8420D24126AC40FA9168195E0F8D1C48.js"></script>-->
+</body>
+</html>
